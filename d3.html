@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background-color: aqua;
+ margin: 0;
+}
+
+.scene{
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+}
+.spinner{
+    width: 100%;
+    height: 100%;
+    --clr: rgb(255, 255, 255);
+    --clr-alpha: rgb(0, 0, 0);
+    animation: rotate 3.6s infinite linear;
+    transform: rotateX(-30deg) rotateY(-45deg);
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.spinner > div{
+    background-color: var(--clr);
+    height: 100px;
+    width: 100px;
+    border: 3.5px solid var(--clr-alpha);
+}
+
+.front{
+    transform: rotateZ(100px);
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+
+.right{
+    transform: rotateY(90deg);
+}
+
+.left{
+    transform: rotateY(-90deg);
+}
+
+.top{
+    transform: rotateX(90deg);
+}
+
+.bottom{
+    transform: rotateX(-90deg);
+}
+@keyframes spinner {
+
+    form{
+        transform: rotate(-30deg) rotateY(-45deg);
+        to{
+            transform: rotateX(-30deg) rotateY(315deg);
+        }
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="scene">
+        <div class="spinner">
+            <div class="front"></div>
+            <div class="back"></div>
+            <div class="right"></div>
+            <div class="left"></div>
+            <div class="top"></div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
