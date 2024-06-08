@@ -5,83 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-body{
- display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
- background-color: aqua;
- margin: 0;
+ body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
-.scene{
-    width: 200px;
-    height: 200px;
-    perspective: 600px;
+.face {
+  background: linear-gradient(45deg, #4fd1c522, #4fd1c5cc);
+  border: 2px solid #4fd1c5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 50px;
+  font-weight: bold;
+  color: #234e52;
 }
-.spinner{
-    width: 100%;
-    height: 100%;
-    --clr: rgb(255, 255, 255);
-    --clr-alpha: rgb(0, 0, 0);
-    animation: rotate 3.6s infinite linear;
-    transform: rotateX(-30deg) rotateY(-45deg);
-    transform-style: preserve-3d;
-    position: relative;
+.cube {
+  width: 200px;
+  height: 200px;
+}
+.cube {
+  /* ... */
+  transform: rotateX(-20deg) rotateY(-10deg);
+  transform-style: preserve-3d;
 }
 
-.spinner > div{
-    background-color: var(--clr);
-    height: 100px;
-    width: 100px;
-    border: 3.5px solid var(--clr-alpha);
+.face {
+  /* ... */
+  width: 200px;
+  height: 200px;
+}
+.face {
+  /* ... */
+  position: absolute;
+}
+.face--top {
+  transform: rotateX(90deg) translateZ(100px);
 }
 
-.front{
-    transform: rotateZ(100px);
+.face--bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+.face--front {
+  transform: translateZ(100px);
+}
+.face--right {
+  transform: rotateY(90deg) translateZ(100px);
 }
 
-.back{
-    transform: rotateY(180deg);
+.face--back {
+  transform: rotateY(180deg) translateZ(100px);
 }
 
-.right{
-    transform: rotateY(90deg);
+.face--left {
+  transform: rotateY(-90deg) translateZ(100px);
 }
 
-.left{
-    transform: rotateY(-90deg);
-}
-
-.top{
-    transform: rotateX(90deg);
-}
-
-.bottom{
-    transform: rotateX(-90deg);
-}
-@keyframes spinner {
-
-    form{
-        transform: rotate(-30deg) rotateY(-45deg);
-        to{
-            transform: rotateX(-30deg) rotateY(315deg);
-        }
-    }
-}
     </style>
 </head>
 <body>
-    <div class="scene">
-        <div class="spinner">
-            <div class="front"></div>
-            <div class="back"></div>
-            <div class="right"></div>
-            <div class="left"></div>
-            <div class="top"></div>
-            <div class="bottom"></div>
-        </div>
-    </div>
-    
+    <div class="cube">
+        <div class="face face--front">Front</div>
+        <div class="face face--right">Right</div>
+        <div class="face face--back">Back</div>
+        <div class="face face--left">Left</div>
+        <div class="face face--top">Top</div>
+        <div class="face face--bottom">Bottom</div>
+      </div>
 </body>
 </html>

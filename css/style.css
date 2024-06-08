@@ -39,7 +39,7 @@ nav{
     text-align: end;
 }
 
-a{
+nav > a{
     background-color: rgb(64, 82, 95);
     color: aliceblue;
     text-decoration: none;
@@ -121,7 +121,7 @@ p{
 
 
 
-img{
+#color-img  img{
     background-color: rgba(0, 0, 0, 0);
     position: relative;
     left: 65%;
@@ -132,7 +132,7 @@ img{
     box-shadow: 1px 2px 1px #323946;
 }
 
-img:hover{
+#color-img img:hover{
     border-spacing: 30px;
     box-shadow: 6px 2px 6px #323946;
 }
@@ -143,25 +143,16 @@ img:hover{
     padding: 25px;
 }
 
-.spinner{
-    width: 70.4px;
-    height: 70.4px;
-    --clr: rgb(255, 255, 255);
-    --clr-alpha: rgb(0, 0, 0);
-    animation: spinner 3.6s infinite ease;
-    transform-style: preserve-3d;
+.conecimento{
+    background-color: #000000;
+    border-radius: 20px;
+    position: relative;
+    top: -150px;
+    box-shadow: 6px 2px 3px solid rgba(0, 0, 0, 0.5);
 }
 
-.spinner > .quadrando-d3{
-    background-image: linear-gradient(red, black, blue);
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    border: 3.5px solid var(--clr-alpha);
-}
-
-@keyframes spinner {
-    100% {
-        transform: rotate(195deg) rotateX(185deg) rotateY(185deg) ;
-    }
+.box-logo {
+    background-color: #fff;
+    font-size: 4rem;
+   
 }
