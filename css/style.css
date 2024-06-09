@@ -151,7 +151,7 @@ p{
     box-shadow: 6px 2px 3px solid rgba(0, 0, 0, 0.5);
 }
 
-.bxl-facebook{
+#bxl-facebook{
     background-color: blue;
     border-radius: 50%;
     color: #fff;
@@ -161,4 +161,10 @@ p{
     background-color: #fff;
     font-size: 4rem;
    
+}
+
+@media (min-width: 768px){
+    nav > a{
+        diplay: none;
+    }
 }
