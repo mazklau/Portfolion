@@ -151,6 +151,11 @@ p{
     box-shadow: 6px 2px 3px solid rgba(0, 0, 0, 0.5);
 }
 
+.bxl-facebook{
+    background-color: blue;
+    color: #fff;
+} 
+
 .box-logo {
     background-color: #fff;
     font-size: 4rem;
