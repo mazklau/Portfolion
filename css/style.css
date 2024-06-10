@@ -220,14 +220,19 @@ p{
     }
 
     #img-php{
-        width: 70px;
-        padding: 2px;
+        width: 90px;
+        padding: 9px;
     }
     /*--------------------------------**/
     .text{
         position: relative;
-        top: 50px;
+        top: -80px;
         left: -70px;
+    }
+
+    .bxs-data{
+        font-size: 3rem;
+        padding: 6px;
     }
     
     .bxl-css3{
@@ -236,10 +241,12 @@ p{
         
     .bxl-html5{
         font-size: 3rem;
+        padding: 6px;
     }
     
     .bxl-javascript{
         font-size: 3rem;
+        padding: 6px;
     }
 
     .bxl-css3{
