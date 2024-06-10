@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 @keyframes rotateCube {
   0% {
     transform: rotateX(-20deg) rotateY(-10deg);
@@ -14,7 +19,8 @@
   transform-style: preserve-3d;
   animation: rotateCube 5s infinite linear;
   position: relative; /* Necessário para posicionamento absoluto das faces */
-  top: 35px;
+  top: 40px;
+  left: 60px;
 }
 
 
