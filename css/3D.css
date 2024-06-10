@@ -1,24 +1,20 @@
 @keyframes rotateCube {
-    0% {
-      transform: rotateX(-20deg) rotateY(-10deg);
-    }
-    100% {
-      transform: rotateX(-20deg) rotateY(350deg);
-    }
-  }
-  
-  .cube {
-    width: 100px;
-    height: 100px;
+  0% {
     transform: rotateX(-20deg) rotateY(-10deg);
-    transform-style: preserve-3d;
-    animation: rotateCube 5s infinite linear;
-    position: relative; /* Necessário para posicionamento absoluto das faces */
   }
-  
-  .cube{
-    margin: auto;
+  100% {
+    transform: rotateX(-20deg) rotateY(350deg);
   }
+}
+
+.cube {
+  width: 50px;
+  height: 50px;
+  transform: rotateX(-20deg) rotateY(-10deg);
+  transform-style: preserve-3d;
+  animation: rotateCube 5s infinite linear;
+  position: relative; /* Necessário para posicionamento absoluto das faces */
+}
 
   .face {
     background: linear-gradient(45deg, #4fd1c522, #4fd1c5cc);
@@ -57,75 +53,4 @@
   .face--left {
     transform: rotateY(-90deg) translateZ(50px);
   }
-
-  @media (max-width: 957px){
-    .cube{
-      position: relative;
-      top: 13px;
-    }
-    .face {
-      width: 70px;
-      height: 70px;
-      
-    }
-    
-    .face--top {
-      transform: rotateX(90deg) translateZ(35px);
-    }
-    
-    .face--bottom {
-      transform: rotateX(-90deg) translateZ(35px);
-    }
-    
-    .face--front {
-      transform: translateZ(35px);
-    }
-    
-    .face--right {
-      transform: rotateY(90deg) translateZ(35px);
-    }
-    
-    .face--back {
-      transform: rotateY(180deg) translateZ(35px);
-    }
-    
-    .face--left {
-      transform: rotateY(-90deg) translateZ(35px);
-    }
-  }
   
-  @media (max-width: 657px){
-    .cube{
-      position: relative;
-      top: 20px;
-    }
-    .face {
-      width: 50px;
-      height: 50px;
-      
-    }
-    
-    .face--top {
-      transform: rotateX(90deg) translateZ(25px);
-    }
-    
-    .face--bottom {
-      transform: rotateX(-90deg) translateZ(25px);
-    }
-    
-    .face--front {
-      transform: translateZ(25px);
-    }
-    
-    .face--right {
-      transform: rotateY(90deg) translateZ(25px);
-    }
-    
-    .face--back {
-      transform: rotateY(180deg) translateZ(25px);
-    }
-    
-    .face--left {
-      transform: rotateY(-90deg) translateZ(25px);
-    }
-    }
