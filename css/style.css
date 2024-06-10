@@ -161,9 +161,24 @@ p{
     padding-left: 15px;
 }
 
-.bxl-javascript{
+.bxl-css3{
+    color: blue;
+    font-size: 6rem;
+}
+
+.bxl-html5{
     color: #a32c2c;
     font-size: 10rem;
+}
+
+.bxl-javascript{
+    color: #a3a12c;
+    font-size: 10rem;
+}
+
+.text-Css3{
+    position: absolute;
+    top: 90%;
 }
 
 .box-logo {
