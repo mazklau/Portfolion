@@ -156,6 +156,10 @@ p{
     justify-content: space-around;
 }
 
+.trabalhos  h2 {
+    padding-bottom: 25px;
+}
+
 .html-logo{
 
     padding-left: 15px;
@@ -181,14 +185,66 @@ p{
     top: 90%;
 }
 
+
+
 .box-logo {
     background-color: #fff;
     font-size: 4rem;
    
 }
 
-@media (min-width: 768px){
-    nav > a{
-        diplay: none;
+@media (max-width: 768px){
+    .bxl-css3{
+        color: blue;
+        font-size: 4rem;
     }
+    
+    .bxl-html5{
+        color: #a32c2c;
+        font-size: 6rem;
+    }
+    
+    .bxl-javascript{
+        color: #a3a12c;
+        font-size: 6rem;
+    }
+
+    .text-Css3{
+        position: absolute;
+        top: 72%;
+    }
+
+    .cube {
+        position: relative; /* Necessário para posicionamento absoluto das faces */
+        top: 20px;
+      }
+    .face {
+        width: 62px;
+        height: 62px;
+      }
+
+    .face--top {
+        transform: rotateX(90deg) translateZ(30px);
+    }
+    
+    .face--bottom {
+        transform: rotateX(-90deg) translateZ(30px);
+    }
+    
+    .face--front {
+        transform: translateZ(30px);
+    }
+    
+    .face--right {
+        transform: rotateY(90deg) translateZ(30px);
+    }
+    
+    .face--back {
+        transform: rotateY(180deg) translateZ(30px);
+    }
+    
+    .face--left {
+        transform: rotateY(-90deg) translateZ(30px);
+    }
+  
 }
