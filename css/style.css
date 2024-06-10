@@ -144,15 +144,53 @@ p{
 }
 
 .conecimento{
-    background-color: #000000;
+    background-color: #00000070;
     border-radius: 20px;
     position: relative;
     top: -150px;
-    box-shadow: 6px 2px 3px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 6px 2px 6px solid rgba(0, 0, 0, 0.664);
 }
 
-.box-logo {
-    background-color: #fff;
-    font-size: 4rem;
-   
+.trabalhos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.html-logo{
+
+    padding-left: 15px;
+}
+
+.bxl-javascript{
+    color: #a32c2c;
+    font-size: 10rem;
+}
+
+.bxl-html5 {
+    background-color: transparent;
+    color: #a32c2c;
+    font-size: 10rem;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 8px;
+}
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        padding-top: 0;
+    }
+    .menu a {
+        flex: 1;
+        color: black;
+    }
 }
