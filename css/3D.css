@@ -1,8 +1,3 @@
-*{
-  padding: 0;
-  margin: 0;
-}
-
 @keyframes rotateCube {
   0% {
     transform: rotateX(-20deg) rotateY(-10deg);

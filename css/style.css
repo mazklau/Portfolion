@@ -220,8 +220,8 @@ p{
     }
 
     #img-php{
-        width: 90px;
-        padding: 9px;
+        width: 60px;
+        padding: 6px;
     }
     /*--------------------------------**/
     .text{
@@ -231,66 +231,62 @@ p{
     }
 
     .bxs-data{
-        font-size: 3rem;
-        padding: 6px;
+        font-size: 1.9rem;
+        padding: 4.7px;
     }
     
     .bxl-css3{
-        font-size: 4rem;
+        font-size: 1.9rem;
     }
         
     .bxl-html5{
-        font-size: 3rem;
-        padding: 6px;
+        font-size: 1.9rem;
+        padding-bottom: 7.9px;
     }
     
     .bxl-javascript{
-        font-size: 3rem;
-        padding: 6px;
-    }
-
-    .bxl-css3{
-        font-size: 3rem;
+        font-size: 1.9rem;
+        padding-bottom: 7.9px;
     }
 
     .text-direct-i{
         position: relative;
-        top: 57.7%;
+        top: 50.7%;
         left: -20px;
     }
 
     .cube {
         position: relative; /* Necessário para posicionamento absoluto das faces */
-        top: -6px;
-        left: 30px;
+        top: 3.8px;
+        left: 20px;
       }
     .face {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
       }
 
     .face--top {
-        transform: rotateX(90deg) translateZ(20px);
+        transform: rotateX(90deg) translateZ(15px);
     }
     
     .face--bottom {
-        transform: rotateX(-90deg) translateZ(20px);
+        transform: rotateX(-90deg) translateZ(15px);
     }
     
     .face--front {
-        transform: translateZ(20px);
+        transform: translateZ(15px);
     }
     
     .face--right {
-        transform: rotateY(90deg) translateZ(20px);
+        transform: rotateY(90deg) translateZ(15px);
     }
     
     .face--back {
-        transform: rotateY(180deg) translateZ(20px);
+        transform: rotateY(180deg) translateZ(15px);
     }
     
     .face--left {
-        transform: rotateY(-90deg) translateZ(20px);
+        transform: rotateY(-90deg) translateZ(15px);
     }
   
 }
