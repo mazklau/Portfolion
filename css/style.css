@@ -88,23 +88,6 @@ h2{
     font-size: 1rem;
 }
 
-#text{
-    position: relative;
-    left: 6%;
- 
-}
-
-.text-direct{
-    position: relative;
-    top: 18%;
-    left: -30px;
-}
-
-.text-direct-fc{
-    position: relative;
-    top: 30%;
-}
-
 span{
     color: var(--main-color);
 }
@@ -170,14 +153,6 @@ p{
     padding-left: 15px;
 }
 
-.bxl-php{
-    background-color: blue;
-    width: 130px;
-    color: black;
-    font-size: 6rem;
-    text-align: center;
-    border-radius: 50%;
-}
 
 .bxl-css3{
     color: rgb(112, 112, 204);
@@ -211,6 +186,11 @@ p{
         display: none;
     }
 
+    .bx-menu{
+        font-size: 2.6rem;
+        
+    }
+
     .text-direct{
         position: relative;
         top: 79.9%;
@@ -235,27 +215,23 @@ p{
         
     }
 
-    img{
+    #color-img > img{
         display: none;
+    }
+
+    #img-php{
+        width: 70px;
+        padding: 2px;
     }
     /*--------------------------------**/
     .text{
         position: relative;
-        top: 75%;
+        top: 50px;
         left: -70px;
     }
     
     .bxl-css3{
         font-size: 4rem;
-    }
-        
-    .bxl-php{
-        width: 70px;
-        height: 42px;
-        border-radius: ;
-        font-size: 3rem;
-        border-radius: 50%;
-        
     }
         
     .bxl-html5{
@@ -272,18 +248,18 @@ p{
 
     .text-direct-i{
         position: relative;
-        top: 57%;
+        top: 49.8%;
         left: -20px;
     }
 
     .cube {
         position: relative; /* Necessário para posicionamento absoluto das faces */
-        top: 0;
+        top: -6px;
         left: 30px;
       }
     .face {
-        width: 43px;
-        height: 43px;
+        width: 40px;
+        height: 40px;
       }
 
     .face--top {
