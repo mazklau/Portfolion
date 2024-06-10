@@ -166,31 +166,14 @@ p{
     font-size: 10rem;
 }
 
-.bxl-html5 {
-    background-color: transparent;
-    color: #a32c2c;
-    font-size: 10rem;
+.box-logo {
+    background-color: #fff;
+    font-size: 4rem;
+   
 }
 
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 8px;
-}
-@media (min-width: 768px) {
-    .hamburger {
-        display: none;
-    }
-    .menu {
-        display: flex;
-        flex-direction: row;
-        position: static;
-        width: 100%;
-        height: auto;
-        background-color: transparent;
-        padding-top: 0;
-    }
-    .menu a {
-        flex: 1;
-        color: black;
+@media (min-width: 768px){
+    nav > a{
+        diplay: none;
     }
 }
