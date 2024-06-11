@@ -33,7 +33,7 @@ body{
     background-image: url(../img/img-font2/png-transparent-black-and-white-diamond-pattern-banner-background-pattern-diamond-square.png);
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 100%;
+    width: 100%;
     height: 60px;
     margin: 0;
     border-radius: 9px;
