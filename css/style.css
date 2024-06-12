@@ -458,7 +458,7 @@ nav a:hover {
     }
 }
 @media (max-width: 498px){
-    nav > a{
+    .menu a{
         display: none;
     }
 }
