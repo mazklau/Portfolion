@@ -444,6 +444,10 @@ nav a:hover {
         flex-direction: column;
     }
 
+    nav div > a{
+        display: none;
+    }
+    
     #bloco {
         display: block;
     }
