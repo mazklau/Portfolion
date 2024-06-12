@@ -175,6 +175,7 @@ p{
 
 
 @media (max-width: 498px){
+    
 
     nav > a{
         display: none;
@@ -183,6 +184,9 @@ p{
     .bx-menu{
         font-size: 2.6rem;
         
+    }
+    section{
+        width:300px;
     }
 
     h1{
