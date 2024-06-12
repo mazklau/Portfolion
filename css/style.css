@@ -444,7 +444,7 @@ nav a:hover {
         flex-direction: column;
     }
 
-    nav div > a{
+    nav div a{
         display: none;
     }
     
