@@ -8,16 +8,15 @@
 }
 
 .cube {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   transform: rotateX(-20deg) rotateY(-10deg);
   transform-style: preserve-3d;
   animation: rotateCube 5s infinite linear;
   position: relative; /* Necessário para posicionamento absoluto das faces */
-  top: 40px;
-  left: 60px;
+  top: -41px;
+  left: -5px;
 }
-
 
 
 .face {
@@ -30,30 +29,30 @@
   font-weight: bold;
   color: #234e52;
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .face--top {
-  transform: rotateX(90deg) translateZ(50px);
+  transform: rotateX(90deg) translateZ(25px);
 }
 
 .face--bottom {
-  transform: rotateX(-90deg) translateZ(50px);
+  transform: rotateX(-90deg) translateZ(25px);
 }
 
 .face--front {
-  transform: translateZ(50px);
+  transform: translateZ(25px);
 }
 
 .face--right {
-  transform: rotateY(90deg) translateZ(50px);
+  transform: rotateY(90deg) translateZ(25px);
 }
 
 .face--back {
-  transform: rotateY(180deg) translateZ(50px);
+  transform: rotateY(180deg) translateZ(25px);
 }
 
 .face--left {
-  transform: rotateY(-90deg) translateZ(50px);
+  transform: rotateY(-90deg) translateZ(25px);
 }
