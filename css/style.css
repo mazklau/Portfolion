@@ -104,13 +104,18 @@ nav a:hover {
     padding: 60px 20px;
     background: #f9f9f9;
     text-align: center;
+
 }
 
 .trabalhos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 180px;
 }
+
+
+
 
 .trabalhos div {
     margin: 20px;
@@ -118,21 +123,68 @@ nav a:hover {
 }
 
 .trabalhos h2 {
-    margin-top: 10px;
+    margin-top: -20px;
 }
 
 .html-logo i,
 .html-logo img {
     font-size: 3rem;
     color: #333;
+    padding: 50px;
 }
 
 .bxs-data{
     font: 3.2rem sans-serif;
+    margin: 40px;
 }
 
 #img-php {
     width: 60px;
+}
+
+.text-servico{
+    width: 800px;
+    margin: auto;
+    position: relative;
+    top: -220px;
+
+}
+
+.text-servico h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.text-servico{
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+.sobre-servico{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.informacao{
+    background-color: #6d9ebe86;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow:  2px 1px 2px solid black;
+    transition: .3s all ;
+}
+
+.informacao:hover{
+    position: relative;
+    top: -10px;
+    background-color: #5d61633d;
+}
+
+.sobre-servico p{
+    padding: 10px;
+    align-items: end;
+    font-weight: 400;
 }
 
 @keyframes rotate {
