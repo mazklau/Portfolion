@@ -34,25 +34,25 @@
 }
 
 .face--top {
-  transform: rotateX(90deg) translateZ(25px);
+  transform: rotateX(90deg) translateZ(50px);
 }
 
 .face--bottom {
-  transform: rotateX(-90deg) translateZ(25px);
+  transform: rotateX(-90deg) translateZ(50px);
 }
 
 .face--front {
-  transform: translateZ(25px);
+  transform: translateZ(50px);
 }
 
 .face--right {
-  transform: rotateY(90deg) translateZ(25px);
+  transform: rotateY(90deg) translateZ(50px);
 }
 
 .face--back {
-  transform: rotateY(180deg) translateZ(25px);
+  transform: rotateY(180deg) translateZ(50px);
 }
 
 .face--left {
-  transform: rotateY(-90deg) translateZ(25px);
+  transform: rotateY(-90deg) translateZ(50px);
 }
