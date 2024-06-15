@@ -26,7 +26,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: end;
+    justify-content:end;
     height: 40px;
 }
 
