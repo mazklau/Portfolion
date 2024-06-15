@@ -125,35 +125,6 @@ nav a:hover {
     width: 60px;
 }
 
-.cube {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    transform-style: preserve-3d;
-    transform: rotateX(-30deg) rotateY(-45deg);
-    animation: rotate 5s infinite linear;
-}
-
-.face {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: #333;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    border: 2px solid #fff;
-}
-
-.face--front  { transform: translateZ(50px); }
-.face--back   { transform: rotateY(180deg) translateZ(50px); }
-.face--right  { transform: rotateY(90deg) translateZ(50px); }
-.face--left   { transform: rotateY(-90deg) translateZ(50px); }
-.face--top    { transform: rotateX(90deg) translateZ(50px); }
-.face--bottom { transform: rotateX(-90deg) translateZ(50px); }
-
 @keyframes rotate {
     from { transform: rotateX(-30deg) rotateY(-45deg); }
     to { transform: rotateX(-30deg) rotateY(315deg); }
