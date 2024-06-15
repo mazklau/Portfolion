@@ -95,7 +95,12 @@ nav a:hover {
     border-radius: 50%;
 }
 
-.conecimento {
+.servicos{
+    display: flex;
+    justify-content: column;
+}
+
+.servicos {
     padding: 60px 20px;
     background: #f9f9f9;
     text-align: center;
@@ -104,7 +109,7 @@ nav a:hover {
 .trabalhos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .trabalhos div {
