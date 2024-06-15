@@ -121,6 +121,10 @@ nav a:hover {
     color: #333;
 }
 
+.bxs-data{
+    font: 3.2rem sans-serif;
+}
+
 #img-php {
     width: 60px;
 }
