@@ -101,6 +101,7 @@ nav a:hover {
     padding: 60px 20px;
     background: #f9f9f9;
     text-align: center;
+    height: 350px;
 
 }
 
@@ -108,7 +109,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 180px;
+
 }
 
 
@@ -117,10 +118,11 @@ nav a:hover {
 .trabalhos div {
     margin: 20px;
     text-align: center;
+    
 }
 
 .trabalhos h2 {
-    margin-top: -20px;
+    margin-top: -5px;
 }
 
 .html-logo i,
@@ -146,6 +148,10 @@ nav a:hover {
 
 .text-servico{
     width: 800px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    height: 400px;
+    padding: 20px;
     margin: auto;
 
 }
@@ -153,7 +159,7 @@ nav a:hover {
 .text-servico h1{
     font-weight: 700;
     font-size: 3rem;
-    margin: 20px;
+    margin: 5px;
 }
 
 .text-servico{
@@ -232,5 +238,11 @@ section{
         display: none;
     }
 
-
+    .trabalhos-2, .trabalhos{
+        display: none;
+    }
+    .informacao{
+        width: 98%;
+        height: auto;
+    }
 }
