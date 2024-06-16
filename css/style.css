@@ -98,9 +98,6 @@ nav a:hover {
 .servicos{
     display: flex;
     justify-content: column;
-}
-
-.servicos {
     padding: 60px 20px;
     background: #f9f9f9;
     text-align: center;
@@ -138,6 +135,11 @@ nav a:hover {
     margin: 40px;
 }
 
+.bxl-css3{
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+}
+
 #img-php {
     width: 60px;
 }
@@ -145,8 +147,6 @@ nav a:hover {
 .text-servico{
     width: 800px;
     margin: auto;
-    position: relative;
-    top: -220px;
 
 }
 
@@ -167,6 +167,11 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
+.sobre-servico
+h2{
+    text-align: center;
+}
+
 .informacao{
     background-color: #6d9ebe86;
     border-radius: 20px;
@@ -181,15 +186,27 @@ nav a:hover {
     background-color: #5d61633d;
 }
 
-.sobre-servico p{
+.sobre-servico li{
+    font-size: .7rem;
+    font-weight: 700;
+
+    text-align: justify;
     padding: 10px;
-    align-items: end;
-    font-weight: 400;
+
 }
 
-@keyframes rotate {
-    from { transform: rotateX(-30deg) rotateY(-45deg); }
-    to { transform: rotateX(-30deg) rotateY(315deg); }
+.trabalhos-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 180px;
+    position: relative;
+    top: 100px;
+}
+
+section{
+    margin: 10px;
+    padding: 5px;
 }
 
 @media (max-width: 768px) {
@@ -214,4 +231,6 @@ nav a:hover {
     nav a{
         display: none;
     }
+
+
 }
