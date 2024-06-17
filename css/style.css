@@ -46,11 +46,12 @@ nav a:hover {
 }
 
 #home {
+    height: 600px;
     padding-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: transparent;
 }
 
 .corpo {
@@ -90,17 +91,25 @@ nav a:hover {
     color: #e74c3c;
 }
 
-#color-img img {
-    max-width: 70%;
+.color-img{
+    position: relative;
+    left: -1%;
+}
+
+.home P{
+    font: 1em sans-serif;
+    text-align: justify;
+}
+
+.color-img img {
+    max-width: 80%;
+    padding: 14px;
     border-radius: 50%;
     filter: drop-shadow( 20px 20px 20px  #4b1e85);
     box-shadow: 2px 4px 2px  #5d94b4;
     border: 1px solid #466594;
     border-radius: 28vh 60px;
     transition: 4s all ease;
-    position: relative;
-    top: -2;
-    left: 20%;
 
 }
 
@@ -144,8 +153,9 @@ nav a:hover {
     font: 2.2rem sans-serif;
     filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
 }
+
 .portfolion{
-    background-color: rgba(0, 0, 0, 0.062);
+    background-color:transparent;
     width: 98vw;
     height: 600px;
     margin: auto;
@@ -187,8 +197,7 @@ nav a:hover {
         left: -18%;
     }
     #color-img img {
-        width: 60%;
-        border-radius: 50%;
+        width: 50%;
     }
     #color-img img {
         box-shadow: 2px 4px 2px  #5d94b4;
