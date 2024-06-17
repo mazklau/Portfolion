@@ -50,7 +50,6 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background: #fff;
 }
 
@@ -60,6 +59,7 @@ nav a:hover {
     align-items: center;
     width: 80%;
     margin: 0 auto;
+
 }
 
 .corpo h3 {
@@ -91,158 +91,217 @@ nav a:hover {
 }
 
 #color-img img {
-    max-width: 100%;
+    max-width: 70%;
     border-radius: 50%;
+    filter: drop-shadow( 20px 20px 20px  #4b1e85);
+    box-shadow: 2px 4px 2px  #5d94b4;
+    border: 1px solid #466594;
+    border-radius: 28vh 60px;
+    transition: 4s all ease;
+    position: relative;
+    top: -2;
+    left: 20%;
+
 }
 
-.servicos{
+.media-social{
     display: flex;
-    justify-content: column;
-    padding: 60px 20px;
-    background: #f9f9f9;
-    text-align: center;
-    height: 350px;
-
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
-.trabalhos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-
-
-
-.trabalhos div {
+.media-social {
+    padding: 30px 10px;
+    background-color: transparent;
+    border: 1px solid #333;
+    height: 60px;
+    border-radius: 30px 20px ;
     margin: 20px;
+    transition: 2s all ease;
+    filter: drop-shadow(30px 2px 3px rgba(2, 2, 2, 0.363));
+
+}
+
+.media-social > div{
+    padding-left: 40px;
+}
+
+.servicos, .trabalhos {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.trabalhos > div{
+    padding: 0 80px 0 ;
+}
+
+.bxs-data,
+.bxl-php,
+.bxl-javascript,
+.bxl-html5,
+.bxl-css3{
+    font: 2.2rem sans-serif;
+    filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
+}
+.portfolion{
+    background-color: rgba(0, 0, 0, 0.062);
+    width: 98vw;
+    height: 600px;
+    margin: auto;
     text-align: center;
+}
+
+
+
+.corpo-portfolion {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
     
 }
 
-.trabalhos h2 {
-    margin-top: -5px;
-}
-
-.html-logo i,
-.html-logo img {
-    font-size: 3rem;
-    color: #333;
-    padding: 50px;
-}
-
-.bxs-data{
-    font: 3.2rem sans-serif;
-    margin: 40px;
-}
-
-.bxl-css3{
-    font-size: 3.5rem;
-    padding-bottom: 30px;
-}
-
-#img-php {
-    width: 60px;
-}
-
-.text-servico{
-    width: 800px;
-    border-radius: 20px;
-    border: 1px solid #333;
+.corpo-portfolion > div{
+    margin: 1px;
+    border: 1px solid black;
     height: 400px;
-    padding: 20px;
+    width: 400px;
     margin: auto;
-
 }
-
-.text-servico h1{
-    font-weight: 700;
-    font-size: 3rem;
-    margin: 5px;
-}
-
-.text-servico{
-    font-weight: 500;
-    font-size: 1.2rem;
-
-}
-
-.sobre-servico{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.sobre-servico
-h2{
-    text-align: center;
-}
-
-.informacao{
-    background-color: #6d9ebe86;
-    border-radius: 20px;
-    margin: 20px;
-    box-shadow:  2px 1px 2px solid black;
-    transition: .3s all ;
-}
-
-.informacao:hover{
-    position: relative;
-    top: -10px;
-    background-color: #5d61633d;
-}
-
-.sobre-servico li{
-    font-size: .7rem;
-    font-weight: 700;
-
-    text-align: justify;
-    padding: 10px;
-
-}
-
-.trabalhos-2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 180px;
-    position: relative;
-    top: 100px;
-}
-
-section{
-    margin: 10px;
-    padding: 5px;
-}
-
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
     }
 
-    
+    nav a{
+        display: none;
+    }
+
     #bloco {
         display: block;
     }
 
     .corpo {
         flex-direction: column;
+        position: relative;
+        top: 150px;
+        left: -18%;
+    }
+    #color-img img {
+        width: 60%;
+        border-radius: 50%;
+    }
+    #color-img img {
+        box-shadow: 2px 4px 2px  #5d94b4;
+        filter: drop-shadow(1px 1px 20px #5d94b4);
+        border: 1px solid #466594;
+        border-radius: 28vh 60px;
+        transition: 4s all ease;
+        position: relative;
+        top: -350px;
+        left: 70%;
     }
 
     .trabalhos {
-        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        height: 60px;
     }
+
+    .trabalhos > div{
+        padding: 0 20px 0 ;
+    }
+    .html-logo > h2{
+        font-size: .5rem;
+    
+    }
+
+    .media-social{
+        width: 90%;
+        margin: auto;
+        position: absolute;
+        top: 650px;
+        left: 15px;
+      
+    }
+
 }
 @media (max-width: 498px){
+    
     nav a{
         display: none;
     }
-
-    .trabalhos-2, .trabalhos{
+    .corpo{
+        position: relative;
+        left: 3%;
+    }
+    #color-img img{
         display: none;
     }
-    .informacao{
-        width: 98%;
-        height: auto;
+
+    .media-social{
+        width: 85%;
+        margin: auto;
+        position: absolute;
+        top: 620px;
+      
+    }
+
+    .trabalhos {
+        display: flex;
+        justify-content: space-around;
+        height: 60px;
+    }
+
+    .trabalhos > div{
+        padding: 0 3px 0 ;
+    }
+
+    .html-logo{
+        position: relative;
+        left: -15px; 
+    }
+        
+    .trabalhos > div{
+      padding: 0;    
+    }
+
+    .bxs-data,
+    .bxl-php,
+    .bxl-javascript,
+    .bxl-html5,
+    .bxl-css3{
+        font: 1.6rem sans-serif;
+        filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
+    }
+
+    h4{
+        font: 1em sans-serif;
+        padding: 2px;
+    }
+    
+    .portfolion{
+        background-color: rgba(0, 0, 0, 0.062);
+        width: 90vw;
+        height: 600px;
+        position: relative;
+        top: 300px;
+        margin: auto;
+        text-align: center;
+    }
+
+
+
+    .corpo-portfolion {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+    }
+
+    .corpo-portfolion > div{
+        margin: 1px;
+        border: 1px solid black;
+        height: 200px;
+        width: 120px;
+        margin: auto;
     }
 }
