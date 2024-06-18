@@ -156,6 +156,7 @@ nav a:hover {
 
 .portfolion{
     background-color:transparent;
+    border: 1px #333 solid;
     width: 98vw;
     height: 600px;
     margin: auto;
