@@ -162,7 +162,9 @@ nav a:hover {
     text-align: center;
 }
 
-
+.cabeca-portfolion h1{
+    padding-top: 40px;
+}
 
 .corpo-portfolion {
     display: grid;
@@ -170,13 +172,21 @@ nav a:hover {
     
 }
 
-.corpo-portfolion > div{
+.corpo-portfolion > a{
     margin: 1px;
     border: 1px solid black;
-    height: 400px;
-    width: 400px;
+    border-radius: 20%;
+    height: 300px;
+    width: 240px;
     margin: auto;
 }
+
+.corpo-portfolion > a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+}
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -316,11 +326,12 @@ nav a:hover {
         
     }
 
-    .corpo-portfolion > div{
+    .corpo-portfolion  a {
         margin: 1px;
         border: 1px solid black;
         height: 200px;
         width: 120px;
         margin: auto;
     }
+
 }
