@@ -309,6 +309,7 @@ nav a:hover {
     }
     
     .portfolion{
+        background-color: transparent;
         width: 90vw;
         height: 600px;
         position: relative;
