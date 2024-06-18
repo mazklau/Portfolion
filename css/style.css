@@ -156,8 +156,10 @@ nav a:hover {
 
 .portfolion{
     background-color:transparent;
-    border: 1px #333 solid;
-    width: 98vw;
+    border: 2px #33333315 solid;
+    filter: drop-shadow(10px 2px 1px rgba(0, 0, 0, 0.219));
+    border-radius: 2%;
+    width: 90vw;
     height: 600px;
     margin: auto;
     text-align: center;
@@ -177,9 +179,15 @@ nav a:hover {
     margin: 1px;
     border: 1px solid black;
     border-radius: 20%;
+    box-shadow: 5px 2px 1px #b85342c5;
     height: 300px;
     width: 240px;
     margin: auto;
+}
+
+.corpo-portfolion > a:hover{
+    position: relative;
+    top: -3px;
 }
 
 .corpo-portfolion > a img{
