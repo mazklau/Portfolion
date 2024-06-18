@@ -167,8 +167,8 @@ nav a:hover {
 }
 
 .corpo-portfolion {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
+    display: flex;
+ 
     
 }
 
