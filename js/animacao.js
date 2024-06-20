@@ -12,7 +12,11 @@ function changeIcon(icon) {
             }
         };
 
-const toggleButton = document.querySelector('.items');
+// Seleciona o botão e o elemento a ser mostrado/escondido
+const toggleButton = document.getElementById('toggleButton');
+const content = document.getElementById('content');
+
+// Adiciona um event listener ao botão
 toggleButton.addEventListener('click', () => {
     // Verifica o estado atual do display e alterna entre 'none' e 'block'
     if (content.style.display === 'none') {
