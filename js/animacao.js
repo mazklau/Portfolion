@@ -1,27 +1,26 @@
-// script.js
-function changeIcon(icon) {
-            const menuItems = document.querySelector('#menu-items');
-            menuItems.classList.toggle('show');
-            
-            if (menuItems.classList.contains('show')) {
-                icon.classList.remove('bx-menu');
-                icon.classList.add('bx-x');
-            } else {
-                icon.classList.remove('bx-x');
-                icon.classList.add('bx-menu');
-            }
-        };
-
-// Seleciona o botão e o elemento a ser mostrado/escondido
-const toggleButton = document.getElementById('toggleButton');
-const content = document.getElementById('content');
-
-// Adiciona um event listener ao botão
-toggleButton.addEventListener('click', () => {
-    // Verifica o estado atual do display e alterna entre 'none' e 'block'
-    if (content.style.display === 'none') {
-        content.style.display = 'block';
+function toggleMenu() {
+    var content = document.getElementById("content");
+    if (content.style.display === "none") {
+        content.style.display = "block";
     } else {
-        content.style.display = 'none';
+        content.style.display = "none";
     }
-});
+}
+
+function changeIcon(icon) {
+    icon.classList.toggle("bx-menu");
+    icon.classList.toggle("bx-x");
+}
+
+// Chama a função changeIcon dentro de toggleMenu para alternar o ícone também
+function toggleMenu() {
+    var content = document.getElementById("content");
+    var icon = document.getElementById("toggleButton");
+    if (content.style.display === "none" || content.style.display === "") {
+        content.style.display = "block";
+        changeIcon(icon);
+    } else {
+        content.style.display = "none";
+        changeIcon(icon);
+    }
+}
