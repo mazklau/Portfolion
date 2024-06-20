@@ -255,6 +255,12 @@ nav a:hover {
     nav a{
         display: none;
     }
+    .bx-menu{
+        font-size: 1.5rem;
+    }
+    .bx-x{
+        font-size: 1.5rem;
+    }
     .corpo{
         position: relative;
         left: 3%;

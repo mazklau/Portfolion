@@ -1,11 +1,13 @@
-<div class="cube">
-<div class="face face--front"><i class='bx bxl-css3' ></i></div>
-<div class="face face--right"></div>
-<div class="face face--back"><i class='bx bxl-css3' ></i></div>
-<div class="face face--left"></div>
-<div class="face face--top"></div>
-<div class="face face--bottom"></div>
-</div> 
-
-
-
+function changeIcon(icon) {
+    const menuItems = document.querySelector('.menu-items');
+    
+    menuItems.classList.toggle('show');
+    
+    if (menuItems.classList.contains('show')) {
+        icon.classList.remove('bx-menu');
+        icon.classList.add('bx-x');
+    } else {
+        icon.classList.remove('bx-x');
+        icon.classList.add('bx-menu');
+    }
+}
