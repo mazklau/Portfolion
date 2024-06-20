@@ -252,15 +252,28 @@ nav a:hover {
 }
 @media (max-width: 498px){
     
-    nav a{
-        display: none;
-    }
-    .bx-menu{
-        font-size: 1.5rem;
-    }
-    .bx-x{
-        font-size: 1.5rem;
-    }
+    .menu-items {
+            display: none;
+        }
+
+        /* Exibir os itens do menu quando a classe .show for adicionada */
+    .menu-items.show {
+            display: block;
+        }
+    #menu {
+            position: relative;
+        }
+
+    #bloco {
+            cursor: pointer;
+        }
+
+    .menu-items a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
     .corpo{
         position: relative;
         left: 3%;
