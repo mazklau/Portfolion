@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #000;
     color: #fff;
     padding: 10px 0;
     position: fixed;
@@ -81,14 +81,14 @@ nav a:hover {
 }
 
 .social-media a {
-    color: #333;
+    color: #ffffff;
     font-size: 1.5rem;
     margin: 0 10px;
     transition: color 0.3s;
 }
 
 .social-media a:hover {
-    color: #e74c3c;
+    color: #ebafaf;
 }
 
 .color-img{
@@ -198,7 +198,7 @@ nav a:hover {
         flex-direction: column;
     }
 
-    nav a{
+    #content{
         display: none;
     }
 
@@ -252,15 +252,28 @@ nav a:hover {
 }
 @media (max-width: 498px){
     
-    nav a{
-        display: none;
-    }
-    .bx-menu{
-        font-size: 1.5rem;
-    }
-    .bx-x{
-        font-size: 1.5rem;
-    }
+    .menu-items {
+            display: none;
+        }
+
+        /* Exibir os itens do menu quando a classe .show for adicionada */
+    .menu-items.show {
+            display: block;
+        }
+    #menu {
+            position: relative;
+        }
+
+    #bloco {
+            cursor: pointer;
+        }
+
+    .menu-items a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
     .corpo{
         position: relative;
         left: 3%;
