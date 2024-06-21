@@ -36,8 +36,14 @@ nav a {
     padding: 10px 15px;
 }
 
+.bx-menu,
+.bx-x {
+    font-size: 1.7rem;
+    position: relative;
+}
+
 nav a:hover {
-    background: #555;
+    background: #e74c3c;
     border-radius: 5px;
 }
 
@@ -251,6 +257,11 @@ nav a:hover {
 
 }
 @media (max-width: 498px){
+
+    nav a {
+        position: relative;
+        text-align: center;
+    }
     
     .menu-items {
             display: none;
@@ -272,7 +283,7 @@ nav a:hover {
             display: block;
             padding: 10px;
             text-decoration: none;
-            color: black;
+            color: rgb(255, 255, 255);
         }
     .corpo{
         position: relative;
