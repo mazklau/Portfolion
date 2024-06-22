@@ -302,6 +302,10 @@ nav a:hover {
       
     }
 
+    .social-medi a {
+        color: black;
+    }
+
     .trabalhos {
         display: flex;
         justify-content: space-around;
