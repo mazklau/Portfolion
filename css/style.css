@@ -251,7 +251,9 @@ nav a:hover {
 
 }
 @media (max-width: 498px){
-    
+    nav a{
+        text-aling: center;
+    }
     .menu-items {
             display: none;
         }
