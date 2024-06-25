@@ -42,7 +42,7 @@ nav a {
     position: relative;
 }
 
-nav a:hover {
+.menu-items > a:hover {
     background: #e74c3c;
     border-radius: 5px;
 }
@@ -82,12 +82,17 @@ nav a:hover {
     color: #e74c3c;
 }
 
+span {
+    font-size: 1.7rem;
+
+}
+
 .social-media {
     margin-top: 20px;
 }
 
 .social-media a {
-    color: #ffffff;
+    color: #6b6b6b;
     font-size: 1.5rem;
     margin: 0 10px;
     transition: color 0.3s;
@@ -161,9 +166,11 @@ nav a:hover {
 }
 
 .portfolion{
-    background-color:rgba(0, 0, 0, 0.103);
+    background-image: url(../img/img-font2/png-transparent-black-and-white-diamond-pattern-banner-background-pattern-diamond-square.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     filter: drop-shadow(10px 2px 1px rgba(0, 0, 0, 0.219));
-    width: 90vw;
+    width: 98%;
     height: 600px;
     margin: auto;
     text-align: center;
@@ -174,17 +181,19 @@ nav a:hover {
 }
 
 .corpo-portfolion {
-    display: flex;
- 
+    display: flex; 
+    background-color: transparent;
+    padding: 40px;
+    filter: drop-shadow(1px 3px 2px red);
+
     
 }
 
 .corpo-portfolion > a{
-    margin: 1px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 20%;
-    height: 300px;
-    width: 240px;
+    height: 200px;
+    width: 200px;
     margin: auto;
 }
 
@@ -363,11 +372,10 @@ nav a:hover {
     }
 
     .corpo-portfolion  a {
-        margin: 1px;
         border: 1px solid black;
         height: 200px;
         width: 120px;
-        margin: auto;
+        margin: auto 0 60px;
     }
 
 }
