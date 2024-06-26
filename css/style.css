@@ -252,7 +252,7 @@ nav a:hover {
 }
 @media (max-width: 498px){
     nav {
-        text-aling: center;
+        diplay: flex;
     }
     nav a{
         text-aling: center;
