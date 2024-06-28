@@ -257,8 +257,8 @@ nav a:hover {
     nav a{
         text-aling: center;
     }
-    bx bx-menu,
-    bx bx-x{
+    .bx-menu,
+    .bx-x{
         font-size: 2rem;
     }
     .menu-items {
