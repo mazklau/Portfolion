@@ -369,11 +369,11 @@ nav a:hover {
     }
 
     .corpo-portfolion  a {
-        margin: 1px;
         border: 1px solid black;
         height: 200px;
         width: 120px;
         margin: auto;
+        padding: 20px;
     }
 
 }
