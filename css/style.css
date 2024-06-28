@@ -361,7 +361,7 @@ nav a:hover {
     .corpo-portfolion {
         display: grid;
         grid-template-columns: 1fr 1fr ;
-        
+        padding: 20px;
     }
 
     .orpo-portfolion img{
@@ -373,7 +373,7 @@ nav a:hover {
         height: 200px;
         width: 120px;
         margin: auto;
-        padding: 20px;
+        
     }
 
 }
