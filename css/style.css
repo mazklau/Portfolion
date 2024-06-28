@@ -364,15 +364,11 @@ nav a:hover {
         margin: 20px;
     }
 
-    .corpo-portfolion {
-        margin-bottom: 40px;
-    }
-
     .corpo-portfolion  a {
         border: 1px solid black;
         height: 200px;
         width: 120px;
-        margin: auto;
+        margin: auto 0 20px;
         
     }
 
