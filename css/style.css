@@ -356,7 +356,13 @@ nav a:hover {
         text-align: center;
     }
 
-
+    .cabeca-portfolion > h1{
+        font-variant: small-caps;
+        font-style: oblique;
+        font-size: xx-large;
+        text-decoration: underline;
+        margin: 50px;
+    }
 
     .corpo-portfolion {
         display: grid;
@@ -365,7 +371,9 @@ nav a:hover {
     }
 
     .corpo-portfolion  a {
-        border: 1px solid black;
+
+        border:  1px solid rgba(10, 10, 10, 0.459);
+        border-radius: 20px 50%;
         height: 200px;
         width: 120px;
         margin: auto 0 40px;
