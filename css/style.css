@@ -23,12 +23,8 @@ header {
     z-index: 1000;
 }
 
-section{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-intems: center;
-    margin: auto;
+section .about{
+    margin:20px;
 }
 
 nav {
@@ -105,7 +101,7 @@ nav a:hover {
 }
 
 .home P{
-    font: 1em sans-serif;
+    font: 1rem sans-serif;
     text-align: justify;
 }
 
