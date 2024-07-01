@@ -302,6 +302,7 @@ nav a:hover {
 
     .media-social{
         width: 95%;
+        height: 250px;
         margin: auto;
         position: relative;
         top: 300px;
