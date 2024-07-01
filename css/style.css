@@ -28,6 +28,7 @@ section{
     justify-content: center;
     text-align: center;
     align-intems: center;
+    margin: auto;
 }
 
 nav {
