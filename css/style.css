@@ -25,6 +25,9 @@ header {
 
 section{
     display: flex;
+    justify-content: center;
+    text-align: center;
+    align-intems: center;
 }
 
 nav {
