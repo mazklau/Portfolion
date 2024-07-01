@@ -347,8 +347,8 @@ nav a:hover {
     .about{
         height:100%;
         text-align: center;
-        position: absolute;
-        top: -320%;
+        position: relative;
+        top: -620%;
     }
     
     .portfolion{
