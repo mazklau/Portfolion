@@ -347,7 +347,7 @@ nav a:hover {
     .about{
         height:100%;
         text-align: center;
-        position: relative;
+        position: absolution;
         top: -100%;
     }
     
