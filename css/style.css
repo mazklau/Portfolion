@@ -310,7 +310,11 @@ nav a:hover {
       
     }
 
-    .social-medi a {
+    h4{
+        margin: 10px;
+    }
+
+    .social-media a {
         color: black;
     }
 
