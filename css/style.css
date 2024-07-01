@@ -23,10 +23,6 @@ header {
     z-index: 1000;
 }
 
-section .about{
-    margin:20px;
-}
-
 nav {
     display: flex;
     justify-content:end;
@@ -188,7 +184,7 @@ nav a:hover {
 }
 
 .corpo-portfolion > a:hover{
-    position: relative;
+    pisition:; relative
     top: -3px;
 }
 
