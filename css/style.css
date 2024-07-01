@@ -258,6 +258,7 @@ nav a:hover {
 @media (max-width: 498px){
     nav {
         diplay: flex;
+        justify-content: center;
     }
     nav a{
         text-aling: center;
@@ -309,10 +310,6 @@ nav a:hover {
         width: 95%;
         text-aling: center;
         margin: auto;
-        position: relative;
-        top: 300px;
-        left: 0;
-      
     }
 
     .social-media a {
