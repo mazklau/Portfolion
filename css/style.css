@@ -345,6 +345,7 @@ nav a:hover {
     }
 
     .about{
+        display: flex;
         height:100%;
         text-align: center;
         position: relative;
