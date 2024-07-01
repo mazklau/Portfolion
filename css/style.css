@@ -348,6 +348,8 @@ nav a:hover {
     .about{
         height:100%;
         text-align: center;
+        position: absolution;
+        top: -100px;
     }
     
     .portfolion{
