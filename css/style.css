@@ -23,6 +23,10 @@ header {
     z-index: 1000;
 }
 
+section{
+    display: flex;
+}
+
 nav {
     display: flex;
     justify-content:end;
