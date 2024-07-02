@@ -284,10 +284,7 @@ nav a:hover {
             text-decoration: none;
             color: white;
         }
-    .corpo{
-        position: relative;
-        left: 3%;
-    }
+    .corpo{}
 
     .color-img img{
         box-shadow: 2px 4px 2px  #5d94b4;
@@ -295,7 +292,6 @@ nav a:hover {
         border: 1px solid #466594;
         border-radius: 28vh 130px;
         transition: 4s all ease;
-        position: relative;
         position: relative;
         top: 10px;
         left: 3px;
@@ -355,8 +351,6 @@ nav a:hover {
         background-color: transparent;
         width: 90vw;
         height: 600px;
-        position: relative;
-        top: 300px;
         margin: auto;
         text-align: center;
     }
