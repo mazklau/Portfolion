@@ -284,7 +284,9 @@ nav a:hover {
             text-decoration: none;
             color: white;
         }
-    .corpo{}
+    .corpo{
+        margin: auto;
+    }
 
     .color-img img{
         box-shadow: 2px 4px 2px  #5d94b4;
