@@ -285,7 +285,8 @@ nav a:hover {
             color: white;
         }
     .corpo{
-        margin: auto;
+        position: relative;
+        left: 3%;
     }
 
     .color-img img{
@@ -294,6 +295,7 @@ nav a:hover {
         border: 1px solid #466594;
         border-radius: 28vh 130px;
         transition: 4s all ease;
+        position: relative;
         position: relative;
         top: 10px;
         left: 3px;
@@ -346,13 +348,15 @@ nav a:hover {
         height:100%;
         text-align: center;
         position: relative;
-        top: 120px;
+        top: 420px;
     }
     
     .portfolion{
         background-color: transparent;
         width: 90vw;
         height: 600px;
+        position: relative;
+        top: 300px;
         margin: auto;
         text-align: center;
     }
