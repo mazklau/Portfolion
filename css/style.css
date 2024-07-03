@@ -285,8 +285,7 @@ nav a:hover {
             color: white;
         }
     .corpo{
-        position: relative;
-        left: 3%;
+    
     }
 
     .color-img img{
@@ -295,9 +294,6 @@ nav a:hover {
         border: 1px solid #466594;
         border-radius: 28vh 130px;
         transition: 4s all ease;
-        position: relative;
-        top: 10px;
-        left: 3px;
     }
 
     .media-social{
@@ -321,8 +317,7 @@ nav a:hover {
     }
 
     .html-logo{
-        position: relative;
-        left: -15px; 
+    
     }
         
     .trabalhos > div{
