@@ -345,6 +345,8 @@ nav a:hover {
     .bxl-javascript,
     .bxl-html5,
     .bxl-css3{
+        position: relative;
+        left: 10%;
         font: 1.6rem sans-serif;
         filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
     }
