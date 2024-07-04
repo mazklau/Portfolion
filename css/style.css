@@ -304,6 +304,8 @@ nav a:hover {
         width: 95%;
         text-aling: center;
         margin: auto;
+        position: relative;
+        top: 50px;
     }
 
     .social-media a {
