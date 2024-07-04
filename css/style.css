@@ -360,6 +360,11 @@ nav a:hover {
         top: 140px;
     }
     
+    .servicos{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 100px 100px;
+    }
     .portfolion{
         background-color: transparent;
         width: 90vw;
