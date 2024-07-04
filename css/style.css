@@ -335,6 +335,10 @@ nav a:hover {
         position: relative;
         left: -15px; 
     }
+
+    .trabalho{
+        margin: 40px;
+    }
         
     .trabalhos > div{
       padding: 0;    
