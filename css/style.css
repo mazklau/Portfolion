@@ -212,7 +212,9 @@ nav a:hover {
     height: 100%;
     border-radius: 20%;
 }
-
+.cube2{
+    display: none;
+}
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -279,10 +281,25 @@ nav a:hover {
     nav a{
         text-align: center;
     }
+
+    .cube{
+        position: relative;
+        top: -300px;
+    }
+
+    .cube2{
+        display: block;
+        position: relative;
+        left: 88%;
+        top: -337px;
+
+    }
+
     .bx-menu,
     .bx-x{
         font-size: 1.5rem;
     }
+
     .menu-items {
             display: none;
         }
