@@ -120,17 +120,6 @@ nav a:hover {
 }
 
 .media-social {
-    position: relativo;
-    top: 10%;
-    
-}
-
-.servicos{
-   display: grid;
-   grid-template-columns: 1fr 1fr ; 
-}
-
-.trabalhos{
     padding: 30px 10px;
     background-color: transparent;
     border: 1px solid #333;
@@ -195,7 +184,7 @@ nav a:hover {
 }
 
 .corpo-portfolion > a:hover{
-    pisition: relative;
+    position: relative;
     top: -3px;
 }
 
@@ -260,8 +249,7 @@ nav a:hover {
 }
 @media (max-width: 498px){
     nav {
-        display: flex;
-        justify-content: center;
+        diplay: flex;
     }
     nav a{
         text-align: center;
@@ -311,7 +299,6 @@ nav a:hover {
 
     .media-social{
         width: 95%;
-        text-align: center;
         margin: auto;
         position: relative;
         top: 50px;
