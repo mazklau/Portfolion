@@ -160,8 +160,10 @@ nav a:hover {
 .bxl-javascript,
 .bxl-html5,
 .bxl-css3,
-.bxl-php{
-    margin: 10px;
+.bxl-php,
+.bxl-bootstrap{
+    align-items: center;
+    padding: 20px;
     font: 2.2rem sans-serif;
     filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
 }
