@@ -11,3 +11,4 @@ function changeIcon(icon) {
         icon.classList.add('bx-menu');
     }
 }
+
