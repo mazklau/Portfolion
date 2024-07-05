@@ -195,7 +195,7 @@ nav a:hover {
 }
 
 .corpo-portfolion > a:hover{
-    pisition: relative;
+    position: relative;
     top: -3px;
 }
 
