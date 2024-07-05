@@ -47,7 +47,6 @@ nav a:hover {
 #home {
     
     height: 900px;
-    padding-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +95,8 @@ nav a:hover {
     left: -1%;
 }
 
-.home P{
+.home P,
+.about-aria p{
     font: 1rem sans-serif;
     text-align: justify;
 }
@@ -113,17 +113,11 @@ nav a:hover {
 
 }
 
-.media-social{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-}
+.about-aria{
+    width: 80%;
+    margin: auto;
+ }
 
-.media-social {
-    position: relativo;
-    top: 10%;
-    
-}
 
 .servicos{
    display: grid;
@@ -138,7 +132,7 @@ nav a:hover {
     margin: 20px;
     transition: 2s all ease;
     filter: drop-shadow(30px 2px 3px rgba(2, 2, 2, 0.363));
-    width: 80px;
+    width: 120px;
      
 }
 
@@ -152,24 +146,35 @@ nav a:hover {
     height: 60px;
 }
 
-.trabalhos > div{
-    padding: 0 80px 0 ;
+.servicos{
+    position: relative;
+    top: -280px;
 }
 
+.bxl-php{
+    font: 3rem sans-serif;
+    filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
+}
+.bxl-bootstrap{
+    font: 2.4rem sans-serif;
+    filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
+}
 .bxs-data,
 .bxl-javascript,
 .bxl-html5,
-.bxl-css3,
-.bxl-php,
-.bxl-bootstrap{
-    align-items: center;
-    padding: 20px;
-    font: 2.2rem sans-serif;
+.bxl-css3{
+
+    font: 2.5rem sans-serif;
     filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
 }
 
+.about h1 {
+    text-align: center;
+    padding: 30px;
+}
+
 .portfolion{
-    background-color:rgba(0, 0, 0, 0.103);
+    background-color: transparent;
     filter: drop-shadow(10px 2px 1px rgba(0, 0, 0, 0.219));
     width: 90vw;
     height: 600px;
@@ -177,8 +182,9 @@ nav a:hover {
     text-align: center;
 }
 
-.cabeca-portfolion h1{
-    padding-top: 40px;
+.cabeca-portfolion > h1{
+
+    padding: 80px;
 }
 
 .corpo-portfolion {
@@ -226,6 +232,7 @@ nav a:hover {
         top: 150px;
         left: -18%;
     }
+
     #color-img img {
         width: 50%;
     }
@@ -239,7 +246,11 @@ nav a:hover {
         top: -350px;
         left: 70%;
     }
-
+    .servicos{
+        position: relative;
+        top: 0;
+        left: -34%;
+    }
     .trabalhos {
         display: flex;
         justify-content: space-around;
@@ -249,8 +260,8 @@ nav a:hover {
     .trabalhos > div{
         padding: 0 20px 0 ;
     }
-    .html-logo > h2{
-        font-size: .5rem;
+    .html-logo {
+       position: relative;
     
     }
 
@@ -333,10 +344,7 @@ nav a:hover {
         padding: 0 3px 0 ;
     }
 
-    .html-logo{
-        position: relative;
-        left: -15px; 
-    }
+   
 
     .trabalho{
         margin: 40px;
@@ -345,9 +353,15 @@ nav a:hover {
     .trabalhos > div{
       padding: 0;    
     }
-
+    .bxl-php{
+        font: 2.2rem sans-serif;
+        filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
+    }
+    .bxl-bootstrap{
+        font: 1.6rem sans-serif;
+        filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
+    }
     .bxs-data,
-    .bxl-php,
     .bxl-javascript,
     .bxl-html5,
     .bxl-css3{
