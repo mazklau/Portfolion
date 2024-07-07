@@ -241,7 +241,8 @@ nav a:hover {
     }
 
     #color-img img {
-        width: 50%;
+        width: 100px;
+        height:100px;
     } 
     .color-img img{
         box-shadow: 2px 4px 2px  #5d94b4;
