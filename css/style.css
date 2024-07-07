@@ -217,8 +217,13 @@ nav a:hover {
 }
 @media (max-width: 898px) {
     nav {
-        flex-direction: column;
+        display: flex;
+        justify-content: center;
     }
+    nav a{
+        text-align: center;
+    }
+
 
     #content{
         display: none;
@@ -274,7 +279,7 @@ nav a:hover {
     }
 
     .corpo-portfolion > a {    
-    margin: 20px;
+    margin-left: 20px;
 
 }
 }
