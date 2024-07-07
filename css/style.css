@@ -215,7 +215,7 @@ nav a:hover {
 .cube2{
     display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 898px) {
     nav {
         flex-direction: column;
     }
@@ -238,6 +238,7 @@ nav a:hover {
     #color-img img {
         width: 50%;
     }
+
     .color-img img {
         box-shadow: 2px 4px 2px  #5d94b4;
         filter: drop-shadow(1px 1px 20px #5d94b4);
