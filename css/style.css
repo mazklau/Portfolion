@@ -272,6 +272,10 @@ nav a:hover {
         margin: auto;
     }
 
+    .corpo-portfolion > a {    
+    margin: 20px;
+
+}
 }
 @media (max-width: 498px){
     nav {
