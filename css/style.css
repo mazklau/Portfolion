@@ -194,7 +194,7 @@ nav a:hover {
 }
   .iframe-container {
             position: relative;
-            width: 100%;
+            width: 100px;
             padding-bottom: 56.25%; /* Aspect ratio 16:9 */
             height: 0;
             overflow: hidden;
