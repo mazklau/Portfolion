@@ -192,22 +192,7 @@ nav a:hover {
      
     margin:auto; 
 }
-  .iframe-container {
-            position: relative;
-            width: 100px;
-            padding-bottom: 56.25%; /* Aspect ratio 16:9 */
-            height: 0;
-            overflow: hidden;
-  }
-  .iframe-container iframe {
-           position: absolute;
-            top: 0;
-            left: 0;
-            width: 100px;
-            height: 100px;
-            border: 0;
-  }
-    
+   
 
 .card-container {
     display: flex;
@@ -253,8 +238,8 @@ nav a:hover {
 iframe {
   position: relative;
   overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+  width: 100px;
+  height: 100px;
 }
 
 .cube2{
