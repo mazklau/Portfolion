@@ -219,9 +219,6 @@ nav a:hover {
     text-align: center;
 }
 
-.card:hover .card-content {
-    transform: rotateY(180deg);
-}
 
 .card-content h2 {
     margin: 0;
