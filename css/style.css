@@ -245,7 +245,10 @@ iframe {
     nav {
         flex-direction: column;
     }
-
+    nav a{
+        display: block;
+        text-align: center;
+    }
     #content{
         display: none;
     }
