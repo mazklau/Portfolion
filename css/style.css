@@ -238,8 +238,8 @@ nav a:hover {
 iframe {
   position: relative;
   overflow: hidden;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .cube2{
