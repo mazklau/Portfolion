@@ -217,9 +217,9 @@ nav a:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.5s;
     transform-style: preserve-3d;
+    transform: rotateY(0deg);
     padding: 20px;
     text-align: center;
-    transform: rotateY(0deg);
 }
 
 .card:hover .card-content {
@@ -240,6 +240,12 @@ iframe {
   overflow: hidden;
   width: 200px;
   height: 200px;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+}
+iframe:hover  {
+    transform: rotateY(180deg);
 }
 
 .cube2{
