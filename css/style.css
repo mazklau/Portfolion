@@ -238,7 +238,7 @@ iframe {
 }
 
 
-.cube2{
+.cube, .cube2{
     display: none;
 }
 @media (max-width: 768px) {
