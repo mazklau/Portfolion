@@ -241,6 +241,32 @@ iframe {
  .cube2{
     display: none;
 }
+.carousel {
+    width: 300px; /* Defina a largura do carrossel conforme necessário */
+    height: 200px; /* Defina a altura do carrossel conforme necessário */
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    animation: slideUp 6s infinite;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slideUp {
+    0% { top: 0; }
+    33% { top: -200px; } /* Altura da imagem */
+    66% { top: -400px; } /* Altura da imagem * 2 */
+    100% { top: 0; }
+}
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
