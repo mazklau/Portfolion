@@ -264,10 +264,6 @@ iframe {
         top: 150px;
         left: -18%;
     }
-
-    #color-img img {
-        width: 50%;
-    }
     .color-img img {
         box-shadow: 2px 4px 2px  #5d94b4;
         filter: drop-shadow(1px 1px 20px #5d94b4);
@@ -318,7 +314,6 @@ iframe {
     }
 
     .cube2{
-        display: block;
         position: relative;
         left: 88%;
         top: -337px;
