@@ -258,11 +258,7 @@ iframe {
         display: block;
     }
 
-    .m-m-social{
-        position: relative;
-        top: 400px;
-        left: -10px;
-    }
+   
 
     .corpo {
         flex-direction: column;
@@ -302,6 +298,9 @@ iframe {
     .media-social{
         width: 90%;
         margin: auto;
+        position: relative;
+        top: 300px;
+        left: 20px;
     }
 
 }
