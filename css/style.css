@@ -258,6 +258,12 @@ iframe {
         display: block;
     }
 
+    .m-m-social{
+        position: relative;
+        top: 400px;
+        left: -10px;
+    }
+
     .corpo {
         flex-direction: column;
         position: relative;
