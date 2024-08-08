@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body {
@@ -44,6 +46,12 @@ nav a:hover {
     display: none;
 }
 
+section{
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
 #home {
     
     height: 900px;
@@ -57,7 +65,6 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
     margin: 0 auto;
 
 }
@@ -92,7 +99,10 @@ nav a:hover {
 
 .color-img{
     position: relative;
-    left: -1%;
+    left: 4%;
+}
+.about-aria{
+    height: 640px;
 }
 
 .home P,
@@ -113,15 +123,45 @@ nav a:hover {
 
 }
 
-.about-aria{
-    width: 80%;
-    margin: auto;
- }
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
 
+.about-aria h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 30px;
+}
 
+.about-corpo p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 40px;
+}
+
+.centralizar{
+
+    position: relative;
+    top: -130px;
+    left: 560px;
+}
+
+.cube{
+    position: relative;
+    left: 190%;
+    top: -140px;
+}
+
+.cube2{
+    display: none;
+}
 .servicos{
-   display: grid;
-   grid-template-columns: 1fr 1fr ; 
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
 }
 
 .trabalhos{
@@ -133,22 +173,8 @@ nav a:hover {
     transition: 2s all ease;
     filter: drop-shadow(30px 2px 3px rgba(2, 2, 2, 0.363));
     width: 120px;
-     
-}
-
-.media-social > div{
-    padding-left: 40px;
-}
-
-.servicos{
-    display: flex;
-    justify-content: space-around;
-    height: 60px;
-}
-
-.servicos{
     position: relative;
-    top: -180px;
+    top: -100px;
 }
 
 .bxl-php{
@@ -167,46 +193,38 @@ nav a:hover {
     font: 2.5rem sans-serif;
     filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
 }
-
-.about h1 {
-    text-align: center;
-    padding: 30px;
+.portfolion{
+    height: 600px;
 }
 
-.portfolion{
-    background-color: transparent;
-    filter: drop-shadow(10px 2px 1px rgba(0, 0, 0, 0.219));
-    width: 80vw;
-    height: 600px;
-    margin:auto;
-    text-align: center;
+.corpo-portfolion{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    position: relative;
+    top: 90px;
+
 }
 
 .cabeca-portfolion > h1{
-
-    padding: 80px;
+    font-size: 2rem;
+    padding-bottom: 15px;
 }
 
-.corpo-portfolion {
-    display: grid;
-     
-    margin:auto; 
+.portfolion{
+    text-align: center;
+    padding: 20px;
 }
-   
 
 .card-container {
     display: flex;
-    gap: 10px;
-    margin: auto;
-  
+    gap: 20px;
 }
 
 .card {
     width: 200px;
     height: 300px;
-    perspective: 900px;
-    margin: 20px;
-
+    perspective: 1000px;
 }
 
 .card-content {
@@ -215,10 +233,17 @@ nav a:hover {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
     padding: 20px;
     text-align: center;
+    transform: rotateY(0deg);
 }
 
+.card:hover .card-content {
+
+    transform: rotateY(15deg);
+}
 
 .card-content h2 {
     margin: 0;
@@ -229,20 +254,66 @@ nav a:hover {
     margin: 20px 0 0;
 }
 
-iframe {
-  position: relative;
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-
+button{
+    width: 120px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #1718181e;
+    border:1px solid rgba(0, 0, 0, 0.295) ;
+    border-radius: 50px;
+    position: relative;
+    top: 279px;
+    box-shadow: 1px 2px 1px solid black;
+    transition: .4s ;
 }
 
-
- .cube2{
-    display: none;
+button:hover{
+    top: 284px;
+    box-shadow: 1px 2px 1px solid rgba(46, 42, 42, 0.171);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
+    
+.face {
+    background: linear-gradient(45deg, #4fd1c522, #4fd1c5cc);
+    border: 2px solid #4fd1c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #234e52;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+  }
+  
+  .face--top {
+    transform: rotateX(90deg) translateZ(65px);
+  }
+  
+  .face--bottom {
+    transform: rotateX(-90deg) translateZ(65px);
+  }
+  
+  .face--front {
+    transform: translateZ(65px);
+  }
+  
+  .face--right {
+    transform: rotateY(90deg) translateZ(65px);
+  }
+  
+  .face--back {
+    transform: rotateY(180deg) translateZ(65px);
+  }
+  
+  .face--left {
+    transform: rotateY(-90deg) translateZ(65px);
+  }
+    
+}
+@media (max-width: 900px){
     nav {
         flex-direction: column;
     }
@@ -256,73 +327,6 @@ iframe {
 
     #bloco {
         display: block;
-    }
-
-   
-
-    .corpo {
-        flex-direction: column;
-        position: relative;
-        top: 150px;
-        left: -18%;
-    }
-    .color-img img {
-        box-shadow: 2px 4px 2px  #5d94b4;
-        filter: drop-shadow(1px 1px 20px #5d94b4);
-        border: 1px solid #466594;
-        border-radius: 28vh 60px;
-        transition: 4s all ease;
-        position: relative;
-        top: -350px;
-        left: 70%;
-    }
-    .servicos{
-        position: relative;
-        top: 0;
-        left: -34%;
-    }
-    .trabalhos {
-        display: flex;
-        justify-content: space-around;
-        height: 60px;
-    }
-
-    .trabalhos > div{
-        padding: 0 20px 0 ;
-    }
-    .html-logo {
-       position: relative;
-    
-    }
-
-    .media-social{
-        width: 90%;
-        margin: auto;
-        position: relative;
-        top: 380px;
-        left: 60px;
-    }
-
-}
-@media (max-width: 498px){
-    nav {
-        display: flex;
-        justify-content: center;
-    }
-    nav a{
-        text-align: center;
-    }
-
-    .cube{
-        position: relative;
-        top: -300px;
-    }
-
-    .cube2{
-        position: relative;
-        left: 88%;
-        top: -387px;
-
     }
 
     .bx-menu,
@@ -346,130 +350,112 @@ iframe {
             cursor: pointer;
         }
 
-    .menu-items a {
-            display: block;
-            padding: 10px;
-            text-decoration: none;
-            color: white;
-        }
-    .corpo{
-        position: relative;
-        left: 3%;
-    }
+}
 
-    .color-img img{
-        box-shadow: 2px 4px 2px  #5d94b4;
-        filter: drop-shadow(1px 1px 20px #5d94b4);
-        border: 1px solid #466594;
-        border-radius: 28vh 130px;
-        transition: 4s all ease;
-        position: relative;
-        position: relative;
-        top: 10px;
-        left: 3px;
+#drag-container, #spin-container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin:auto;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  
+  #drag-container img, #drag-container video {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 200px;
+    font-size: 50px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 8px #fff;
+            box-shadow: 0 0 8px #fff;
+    -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0005);
+  }
+  
+  #drag-container img:hover, #drag-container video:hover {
+    -webkit-box-shadow: 0 0 15px #fffd;
+            box-shadow: 0 0 15px #fffd;
+    -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0007);
+  }
+  
+  #drag-container p {
+    font-family: Serif;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%) rotateX(90deg);
+            transform: translate(-50%,-50%) rotateX(90deg);
+    color: #fff;
+  }
+  
+  #ground {
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%) rotateX(90deg);
+            transform: translate(-50%,-50%) rotateX(90deg);
+    background: -webkit-radial-gradient(center center, farthest-side , #9993, transparent);
+  }
+  
+  #music-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  @-webkit-keyframes spin {
+    from{
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg);
+    } to{
+      -webkit-transform: rotateY(360deg);
+              transform: rotateY(360deg);
     }
-
-    .media-social{
-        width: 95%;
-        text-align: center;
+  }
+  
+  @keyframes spin {
+    from{
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg);
+    } to{
+      -webkit-transform: rotateY(360deg);
+              transform: rotateY(360deg);
+    }
+  }
+  @-webkit-keyframes spinRevert {
+    from{
+      -webkit-transform: rotateY(360deg);
+              transform: rotateY(360deg);
+    } to{
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg);
+    }
+  }
+  @keyframes spinRevert {
+    from{
+      -webkit-transform: rotateY(360deg);
+              transform: rotateY(360deg);
+    } to{
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg);
+    }
+  }
+@media (max-height: 480px ){
+    .cube{
         margin: auto;
         position: relative;
-        top: 50px;
-    }
-
-    .social-media a {
-        color: black;
-    }
-
-    .trabalhos {
-        display: flex;
-        justify-content: space-around;
-        height: 60px;
-    }
-
-    .trabalhos > div{
-        padding: 0 3px 0 ;
-    }
-
-   
-
-    .trabalho{
-        margin: 40px;
-    }
-        
-    .trabalhos > div{
-      padding: 0;    
-    }
-    .bxl-php{
-        font: 2.2rem sans-serif;
-        filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
-    }
-    .bxl-bootstrap{
-        font: 1.6rem sans-serif;
-        filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
-    }
-    .bxs-data,
-    .bxl-javascript,
-    .bxl-html5,
-    .bxl-css3{
-        position: relative;
-        left: 10%;
-        font: 1.6rem sans-serif;
-        filter: drop-shadow( 3px 2px 2px rgba(48, 98, 138, 0.788));
-    }
-
-    h4{
-        font: 1em sans-serif;
-        padding: 2px;
-    }
-
-    .about{
-        height:100%;
-        text-align: center;
-        position: relative;
-        top: 140px;
-    }
-    
-    .servicos{
-        width: 100vw;
-        display: grid;
-        grid-template-columns: 100px 100px;
-    }
-    .portfolion{
-        background-color: transparent;
-        width: 90vw;
-        height: 800px;
-        position: relative;
-        top: 420px;
-        margin-top: 30px;
-        margin: auto;
-        text-align: center;
-    }
-
-    .cabeca-portfolion > h1{
-        font-variant: small-caps;
-        font-style: oblique;
-        font-size: xx-large;
-        text-decoration: underline;
-        margin: 50px;
-        position: relative;
-        left: -15%;
-    }
-
-    .corpo-portfolion {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        margin: 20px;
-    }
-
-    .corpo-portfolion  a {
-
-        border:  1px solid rgba(10, 10, 10, 0.459);
-        border-radius: 20px 50%;
-        height: 200px;
-        width: 120px;
-        margin: auto 0 40px;
+        top: -160px;
+        left: 370px;
         
     }
-
 }
