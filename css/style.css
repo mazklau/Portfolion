@@ -102,7 +102,7 @@ section{
     left: 4%;
 }
 .about-aria{
-    height: 640px;
+    padding: 80px;
 }
 
 .home P,
@@ -124,9 +124,8 @@ section{
 }
 
 .about{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     margin: 10px;
+
 }
 
 .about-aria h1 {
@@ -136,17 +135,19 @@ section{
 }
 
 .about-corpo p{
+    width: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
     position: relative;
+    text-align: justify;
     top: 40px;
 }
 
 .centralizar{
 
     position: relative;
-    top: -130px;
-    left: 560px;
+    top: -160px;
+    left: 360px;
 }
 
 .cube{
@@ -225,6 +226,7 @@ section{
     width: 200px;
     height: 300px;
     perspective: 1000px;
+    margin: 10px;
 }
 
 .card-content {
@@ -352,6 +354,7 @@ button:hover{
 
 }
 
+
 #drag-container, #spin-container {
     position: relative;
     display: -webkit-box;
@@ -386,19 +389,11 @@ button:hover{
     -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0007);
   }
   
-  #drag-container p {
-    font-family: Serif;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    -webkit-transform: translate(-50%,-50%) rotateX(90deg);
-            transform: translate(-50%,-50%) rotateX(90deg);
-    color: #fff;
-  }
+
   
   #ground {
-    width: 900px;
-    height: 900px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     top: 100%;
     left: 50%;
@@ -450,12 +445,84 @@ button:hover{
               transform: rotateY(0deg);
     }
   }
-@media (max-height: 480px ){
-    .cube{
+@media (max-width: 980px ){
+   
+    section.about-aria{
+        height: 800px;
         margin: auto;
-        position: relative;
-        top: -160px;
-        left: 370px;
-        
+        padding: 20px;
     }
+    .about-aria p{
+        width: 600px;
+        text-align: start;
+        position: relative;
+        left: -40px;
+    }
+    
+    .centralizar{
+        position: relative;
+        top: 190px;
+        left: 20px;
+    }
+
+    button{
+        position: relative;
+        top: 260px;
+    }
+
+    button:hover{
+        position: relative;
+        top: 270px;
+    }
+    
+}
+@media (max-width: 680px ){
+
+   
+    .about-aria p{
+        width: 320px;
+        text-align: justify;
+        position: relative;
+        left: -40px;
+    }
+    
+    .centralizar{
+        position: relative;
+        top: 180px;
+        left: -60px;
+    }
+
+    .color-img{
+        display: none;
+    }
+
+    .trabalhos{
+        padding: 5px;
+        margin: 2px;
+    }
+
+    .corpo-portfolion{
+        display: grid;
+        margin: auto;
+       grid-template-columns: 1fr 1fr;
+    }
+
+    .card{
+        width: 150px;
+        margin: auto 8px;
+        margin-bottom: 60px;
+    }
+    
+    #cnt{
+        position: relative;
+        top: 55%;
+    }
+}
+
+@media (max-width: 400px) {
+    .centralizar{
+        position: relative;
+        top: 140px;
+        left: -52px;
+    } 
 }
