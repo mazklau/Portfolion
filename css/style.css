@@ -551,7 +551,9 @@ button:hover {
         
     }
     .card{
-        width: 85vw;
+        width: 75vw;
+        position: relative;
+        left:-5px;
     }
 
 }
