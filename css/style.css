@@ -624,6 +624,8 @@ footer h1 {
     }
 
     .card{
+        position: relative;
+        left: -50px;
         width: 305px;
         margin: auto 10px 80px;
        
