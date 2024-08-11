@@ -636,9 +636,9 @@ footer h1 {
     }
 
     .img-footer  img{ 
-        width: 60%;
+        width: 78%;
         position: absolute;
-        top: 293px;
+        top: 213px;
         left: 40px;
     }
 
@@ -649,12 +649,22 @@ footer h1 {
         padding: 2px;
         
     }
+
+    .img-footer  img:hover {
+        transform: scale(1.1);
+    }
+    .icons a:hover {
+        font-size: .8rem;
+        color: #ffffff;
+        transform: scale(.93);
+    }
+    
      .icons a i {
-        width: 140px;
-        font-size: 1rem;
+        width: 130px;
+        font-size: .8rem;
         margin: 10px;
         position: relative;
-        left: -120px;
+        left: -140px;
         text-align: center;
     }
 
