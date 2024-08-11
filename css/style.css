@@ -392,7 +392,7 @@ footer h1 {
     width: 30%;
     padding: 14px;
     border-radius: 25% 90% 90%;
-    filter: drop-shadow(20px 70px 20px #4b1e85);
+    filter: drop-shadow(20px 70px 20px #7c3c28);
     box-shadow: 9px 3px #4a2b748e;
     transition: 0.4s all ease;
     position: absolute;
@@ -626,7 +626,7 @@ footer h1 {
     .card{
         width: 85vw;
         position: relative;
-        margin: auto 0 80px;
+        margin: auto 10px 80px;
        
     }
 
