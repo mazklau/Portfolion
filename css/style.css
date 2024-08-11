@@ -624,7 +624,7 @@ footer h1 {
     }
 
     .card{
-        width: 85vw;
+        width: 305px;
         margin: auto 10px 80px;
        
     }
@@ -639,7 +639,7 @@ footer h1 {
 
     .footer {
         filter: drop-shadow(20px 30px 100px black);
-        height: 90vh;
+        height: 93vh;
         position: relative;
         top: 185vh;
     }
