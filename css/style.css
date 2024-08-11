@@ -375,11 +375,12 @@ footer h1 {
     gap: 20px;
 }
 
+
 .icons a {
+   
     text-decoration: none;
     color: #ff8800;
     font-size: 2rem;
-   
     transition: transform 0.3s, color 0.3s;
 }
 
@@ -396,19 +397,32 @@ footer h1 {
     box-shadow: 9px 3px  #7c3c2833;
     transition: 0.4s all ease;
     position: absolute;
-    top: 90px;
+    top: 33px;
     left: 60vw;
 }
 
 .icons a i {
+   background-color: #0000004d;
     display: block;
     width: 500px;
-    margin: 60px;
+    margin: 40px;
     position: relative;
     left: -90vh;
     text-align: center;
 }
 
+.text-footer p{
+    background-color: #00000034;
+    border-radius: 20vw;
+    padding: 5px;
+    width: 570px;
+    color: white;
+    font-size: 1.6rem;
+    position: relative;
+    top: 80px;
+    left: -529px;
+    
+}
 
 
 /* Estilos responsivos */
@@ -648,10 +662,10 @@ footer h1 {
     }
 
     .img-footer img{ 
-        width: 78%;
+        width: 58%;
         position: absolute;
-        top: 213px;
-        left: 40px;
+        top: 353px;
+        left: 20%;
     }
 
 
@@ -680,6 +694,17 @@ footer h1 {
         text-align: center;
     }
 
+    .text-footer p{
+        width: 260px;
+        color: white;
+        font-size: .8rem;
+        position: relative;
+        top: 80px;
+        left: -129px;
+        
+    }
 
-
+    .text-footer p:hover {
+        transform: scale(1.1);
+    }
 }
