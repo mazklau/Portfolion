@@ -379,7 +379,7 @@ footer h1 {
     text-decoration: none;
     color: #ff8800;
     font-size: 2rem;
-    padding: 9px;
+   
     transition: transform 0.3s, color 0.3s;
 }
 
@@ -403,6 +403,7 @@ footer h1 {
 .icons a i {
     display: block;
     width: 500px;
+    margin: 60px;
     position: relative;
     left: -90vh;
     text-align: center;
