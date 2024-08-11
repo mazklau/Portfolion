@@ -296,7 +296,7 @@ section{
     width: 200px;
     height: 300px;
     perspective: 1000px;
-    margin: 40px;
+    margin-bottom: 40px;
 }
 
 .card-content {
@@ -625,7 +625,8 @@ footer h1 {
 
     .card{
         width: 85vw;
-        padding: 0;
+        position: relative;
+        left: -15px;
        
     }
 
