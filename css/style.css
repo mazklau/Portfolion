@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 /* Garantir que o rodapé não cubra o conteúdo */
 body {
@@ -266,7 +267,7 @@ section{
 .corpo-portfolion {
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    margin:auto;
     position: relative;
     top: 90px;
 }
@@ -295,7 +296,7 @@ section{
     width: 200px;
     height: 300px;
     perspective: 1000px;
-    margin: 10px;
+    margin: 40px;
 }
 
 .card-content {
@@ -625,12 +626,20 @@ footer h1 {
     .card{
         width: 85vw;
         padding: 0;
-        position: relative;
-        left: -15px;
+       
+    }
+
+    button {
+        top: 295px;
+    }
+
+    button:hover {
+        top: 302px;
     }
 
     .footer {
-        height: 92vh;
+        filter: drop-shadow(20px 30px 100px black);
+        height: 90vh;
         position: relative;
         top: 185vh;
     }
