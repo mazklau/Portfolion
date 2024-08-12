@@ -142,3 +142,21 @@ document.onmousewheel = function(e) {
   radius += d;
   init(1);
 };
+
+
+// Função para trocar a imagem
+
+
+const imagens = ["img/port1/1.jpg", "img/port1/2.jpg", "img/port1/3.jpg","img/port1/4.jpg","img/port1/5.jpg","img/port1/6.jpg","img/port1/7.jpg","img/port1/8.jpg","img/port1/9.jpg","img/port1/10.jpg","img/port1/11.jpg","img/port1/12.jpg" ];
+let indice = 0;
+
+// Função para trocar a imagem
+function trocarImagem() {
+    indice = (indice + 1) % imagens.length; // Incrementa o índice e reinicia quando chegar ao final
+    document.getElementById("imagem").src = imagens[indice]; // Troca a imagem
+    document.getElementById("imagem2").src = imagens2[indice]; // Troca a imagem
+    document.getElementById("imagem3").src = imagens3[indice]; // Troca a imagem
+}
+
+// Troca a imagem a cada 5 segundos (5000 milissegundos)
+setInterval(trocarImagem, 2000);
