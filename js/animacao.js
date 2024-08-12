@@ -148,6 +148,8 @@ document.onmousewheel = function(e) {
 
 
 const imagens = ["img/port1/1.jpg", "img/port1/2.jpg", "img/port1/3.jpg","img/port1/4.jpg","img/port1/5.jpg","img/port1/6.jpg","img/port1/7.jpg","img/port1/8.jpg","img/port1/9.jpg","img/port1/10.jpg","img/port1/11.jpg","img/port1/12.jpg" ];
+const imagens2 = ["img/port2/1 - Copia.jpg", "img/port2/2.jpg", "img/port2/3.jpg", "img/port2/3.jpg", "img/port2/4.jpg", "img/port2/5.jpg", "img/port2/6.jpg", "img/port2/7.jpg", "img/port2/8.jpg", "img/port2/9.jpg", "img/port2/10 (1).jpg", "img/port2/10 (2).jpg", "img/port2/11.jpg"];
+const imagens3 = ["img/port1/1.jpg", "img/port1/2.jpg", "img/port1/3.jpg","img/port1/4.jpg","img/port1/5.jpg","img/port1/6.jpg","img/port1/7.jpg","img/port1/8.jpg","img/port1/9.jpg","img/port1/10.jpg","img/port1/11.jpg","img/port1/12.jpg" ];
 let indice = 0;
 
 // Função para trocar a imagem
@@ -159,4 +161,4 @@ function trocarImagem() {
 }
 
 // Troca a imagem a cada 5 segundos (5000 milissegundos)
-setInterval(trocarImagem, 2000);
+setInterval(trocarImagem, 1000);
