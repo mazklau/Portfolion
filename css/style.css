@@ -718,24 +718,20 @@ footer h1 {
         transform: scale(1.1);
     }
 
-    .portfolion{
-        margin:auto;
-        margin-bottom:94%;
+    .cabeca-portfolion h1{
+        position: relative;
+        left: -9%;
     }
 
-    .card img{
-        width:112%;
-        position:relative;
-        left:-6%;
-    }
-    .card{
-        position:relative;
-        top: -120px;
-        margin: 69px;
-    }
-    .corpo-portfolion{
-        position:relative;
-        left:-29px;
-        
-    }
+    .portfolion,
+    .corpo-portfolion {
+        height: 400px;
+        margin: 0 0 0 auto;
+   }
+   .card{
+        margin-bottom: 150px ;
+   }
+   .card-content img{
+        width: 112%;
+   }
 }
