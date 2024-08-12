@@ -719,7 +719,8 @@ footer h1 {
     }
 
     .portfolion{
-       margin-bottom:94%;
+        margin:auto;
+        margin-bottom:94%;
     }
 
     .card img{
