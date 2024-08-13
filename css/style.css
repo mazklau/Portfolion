@@ -436,7 +436,7 @@ footer h1 {
 
 
 /* Estilos responsivos */
-@media (max-width: 998px) {
+@media (max-width: 1100px) {
     .face {
         background: linear-gradient(45deg, #4fd1c522, #4fd1c5cc);
         border: 2px solid #4fd1c5;
@@ -450,7 +450,35 @@ footer h1 {
         width: 130px;
         height: 130px;
     }
-  
+    .about-aria p {
+        width: 750px;
+        text-align: start;
+        position: relative;
+        left: 0;
+    }
+   
+    .icons a i{
+        width: 250px;
+        margin: 22px;
+        font-size: 29px;
+        position: relative;
+        left: -40vw;
+        
+    }
+    .text-footer p{
+        width: 60vw;
+        font-size: 19px;
+        position: relative;
+        top: 18vh;
+        left: -40vw;
+    }
+    .img-footer img{
+        display: block;
+        width: 39vw;
+        position: absolute;
+        left: 57vw;
+        
+    }
     .face--top {
         transform: rotateX(90deg) translateZ(65px);
     }
@@ -493,7 +521,7 @@ footer h1 {
  
 
     .about-aria p {
-        width: 600px;
+        width: 700px;
         text-align: start;
         position: relative;
         left: 0;
@@ -529,6 +557,12 @@ footer h1 {
     #bloco {
         cursor: pointer;
     }
+    .card{
+        margin: 30px;
+    }
+    .card-content img{
+        width: 215px;
+   }
 }
 
 @media (max-width: 780px) {
@@ -549,7 +583,7 @@ footer h1 {
     }
 
     .centralizar {
-        top: 250px;
+        top: -120px;
         left: 20px;
     }
 
@@ -559,6 +593,9 @@ footer h1 {
 
     button:hover {
         top: 270px;
+    }
+    .card{
+        margin: 20px;
     }
 }
 
@@ -571,7 +608,7 @@ footer h1 {
 
     .centralizar{
         position: relative;
-        top: 20px;
+        top: -150px;
     }
     
 
@@ -583,12 +620,6 @@ footer h1 {
         padding: 5px;
         margin: 2px;
     }
-    .corpo-portfolion {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        
-    }
-
 
     button {
         top: 260px;
@@ -597,6 +628,43 @@ footer h1 {
     button:hover {
         top: 270px;
     }
+
+    .cabeca-portfolion h1{
+        position: relative;
+        left: -25px;
+    }
+
+    .card{
+        position: relative;
+        left: -75px;
+        margin: 40px;
+    }
+  
+    .portfolion,
+    .corpo-portfolion {
+        margin: 25px 0 0 auto;
+   }
+   .card{
+        width: 112px;
+        margin: 15px;
+        position: relative;
+        left: -25px;
+   }
+   .card button{
+    position: relative;
+    left: -20px;
+    top: -10px;
+   }
+   .card-content img{
+        width: 138%;
+   }
+   .img-footer img{
+    display: block;
+    width: 37.5vw;
+    position: absolute;
+    left: 56vw;
+    
+}
 }
 
 @media (max-width: 490px) {
@@ -733,5 +801,13 @@ footer h1 {
    }
    .card-content img{
         width: 112%;
+   }
+}
+@media (max-width: 370px) {
+    .card{
+        width: 224px;
+    } 
+    .card-content img{
+        width: 239px;
    }
 }
